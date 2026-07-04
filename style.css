@@ -1,0 +1,143 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6; /* Fundo suave */
+            color: #333333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* CONTAINER PRINCIPAL */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* 1. CABEÇALHO */
+        header {
+            background-color: #1a365d; /* Azul Marinho Profundo */
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #90cdf4; /* Azul claro suave */
+            font-weight: 300;
+        }
+
+        /* 2. CONTEÚDO PRINCIPAL */
+        main {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        section p {
+            font-size: 1.05rem;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        /* IMAGEM */
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: 15px 0;
+        }
+
+        /* LISTA DE DICAS */
+        h3 {
+            color: #1a365d;
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            border-left: 4px solid #319795; /* Barra lateral verde-água */
+            padding-left: 10px;
+        }
+
+        ul {
+            list-style-type: none; /* Remove as bolinhas padrão */
+        }
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            color: #4a5568;
+        }
+
+       
+        li::before {
+            content: "•";
+            color: #319795; 
+            font-weight: bold;
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+
+        mark {
+            background-color: #fbd38d; /* Destaque amarelo-sol */
+            color: #1a365d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        dfn {
+            font-style: normal;
+            font-weight: 600;
+            color: #2c5282;
+            border-bottom: 2px dashed #319795; /* Linha tracejada elegante */
+            cursor: help;
+        }
+
+        strong {
+            color: #2b6cb0; /* Nome do artista em azul destaque */
+            font-weight: 700;
+        }
+
+        em {
+            font-style: italic;
+            background-color: #edf2f7;
+            padding: 2px 4px;
+            border-radius: 4px;
+            color: #4a5568;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #edf2f7;
+            border-radius: 8px;
+        }
+
+        small {
+            font-size: 0.85rem;
+            color: #718096;
+        }
